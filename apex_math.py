@@ -19,7 +19,7 @@ print("Next pack opened is Heirloom: " + str(chance) + "%")
 print("Next pack will NOT be a Heirloom: " + str(100 - chance) + "%")
 print(" ")
 print("Chance that Heirloom will be:")
-print("Wriath's Kunai: "+ str(wriath_heirloom_chance) + "%")]
+print("Wriath's Kunai: "+ str(wriath_heirloom_chance) + "%")
 print("Bloodhound's Raven's Bite Axe: "+ str(bloodhound_heirloom_chance) + "%")
 print(" ")
 print("Battlepass S2 time to \"tier\" up:")
