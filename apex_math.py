@@ -4,6 +4,7 @@ import os
 pak_level = 45
 pak_bp_s1 = 11
 pak_bp_s2 = 12
+pak_bp_s3 = 12
 number_of_heirlooms = 2
 average_game_time_full = float((18+22)/2)
 average_game_time_half = float((11+13)/2)
