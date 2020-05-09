@@ -6,6 +6,7 @@ pak_bp_s1 = 11
 pak_bp_s2 = 12
 pak_bp_s3 = 12
 pak_bp_s4 = 12
+pak_bp_s5 = 12
 xp_per_sec = 3
 xp_per_kill = 50
 xp_per_dmg_point = 0.25
@@ -25,7 +26,7 @@ octane_heirloom_chance = float((1/number_of_heirlooms) * 100)
 print("Heirloom Chance:")
 print("Next pack opened is Heirloom: " + str(chance) + "%")
 print("Next pack will NOT be a Heirloom: " + str(100 - chance) + "%")
-print("*assuming you finished all three battlepasses,are level 100+ and you did not buy any other packs")
+print("*assuming you finished all 4 battlepasses,are level 100+ and you did not buy any other packs")
 print(" ")
 print("Chance that Heirloom will be:")
 print("Wriath's Kunai Knife: "+ str(wriath_heirloom_chance) + "%")
