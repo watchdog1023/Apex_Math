@@ -9,18 +9,20 @@ pak_bp_s4 = 12
 pak_bp_s5 = 12
 pak_bp_s6 = 13
 pak_bp_s7 = 15
+pak_bp_s8 = 14
 pak_quest_s5 = 6
 pak_quest_s6 = 7
 pak_quest_s7 = 8
+pak_quest_s8 = 8
 xp_per_sec = 3
 xp_per_kill = 50
 xp_per_dmg_point = 0.25
-number_of_heirlooms = 7
+number_of_heirlooms = 8
 average_game_time_full = float((18+21)/2) * 60
 average_game_time_half = float((10+12)/2) * 60
 tier_up_half_game = 54000/1300
 tier_up_full_game = 54000/3000
-total = pak_bp_s1 + pak_bp_s2 + pak_level + pak_bp_s3 + pak_bp_s4 + pak_quest_s5 + pak_quest_s6 + pak_bp_s5 + pak_bp_s6 + pak_quest_s7 + pak_bp_s7
+total = pak_bp_s1 + pak_bp_s2 + pak_level + pak_bp_s3 + pak_bp_s4 + pak_quest_s5 + pak_quest_s6 + pak_bp_s5 + pak_bp_s6 + pak_quest_s7 + pak_bp_s7 + pak_quest_s8 + pak_bp_s8
 chance = float((total/500) * 100)
 wriath_heirloom_chance = float((1/number_of_heirlooms) * 100)
 bloodhound_heirloom_chance = float((1/number_of_heirlooms) * 100)
@@ -29,6 +31,7 @@ pathfinder_heirloom_chance = float((1/number_of_heirlooms) * 100)
 octane_heirloom_chance = float((1/number_of_heirlooms) * 100)
 mirage_heirloom_chance = float((1/number_of_heirlooms) * 100)
 caustic_heirloom_chance = float((1/number_of_heirlooms) * 100)
+gibby_heirloom_chance = float((1/number_of_heirlooms) * 100)
 
 print("Heirloom Chance:")
 print("Next pack opened is Heirloom: " + str(chance) + "%")
@@ -43,6 +46,7 @@ print("Pathfinder's Boxing Gloves: "+ str(pathfinder_heirloom_chance) + "%")
 print("Octane's Butterfly Knife: "+ str(octane_heirloom_chance) + "%")
 print("Mirage's Too Much Witt Statue: " + str(mirage_heirloom_chance) + "%")
 print("Caustic's Death Hammer: " + str(caustic_heirloom_chance) + "%")
+print("Gibby's Death Hammer: " + str(gibby_heirloom_chance) + "%")
 print(" ")
 print("XP earned:")
 print("Full game surival time XP earned(Top 3): "+ str(average_game_time_full * xp_per_sec) + " XP")
