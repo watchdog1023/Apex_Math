@@ -24,7 +24,7 @@ pak_arenas = 10
 xp_per_sec = 3
 xp_per_kill = 50
 xp_per_dmg_point = 0.25
-number_of_heirlooms = 11
+number_of_heirlooms = 12
 average_game_time_full = float((18+21)/2) * 60
 average_game_time_half = float((10+12)/2) * 60
 tier_up_half_game = 54000/1300
@@ -42,6 +42,7 @@ gibby_heirloom_chance = float((1/number_of_heirlooms) * 100)
 bangalore_heirloom_chance = float((1/number_of_heirlooms) * 100)
 revs_heirloom_chance = float((1/number_of_heirlooms) * 100)
 ram_heirloom_chance = float((1/number_of_heirlooms) * 100)
+watt_heirloom_chance = float((1/number_of_heirlooms) * 100)
 
 print("Heirloom Chance:")
 print("Packs opened: " + str(total))
@@ -61,6 +62,7 @@ print("Gibby's War Club: " + str(gibby_heirloom_chance) + "%")
 print("Bangalore's Cold Steel: " + str(bangalore_heirloom_chance) + "%")
 print("Revenant's Dead Mans Curve: " + str(revs_heirloom_chance) + "%")
 print("Rampart's Problem Solver: " + str(ram_heirloom_chance) + "%")
+print("Wattson's \"Shock Gun\": " + str(watt_heirloom_chance) + "%")
 print(" ")
 print("XP earned:")
 print("Full game surival time XP earned(Top 3): "+ str(average_game_time_full * xp_per_sec) + " XP")
